@@ -1,7 +1,7 @@
 (ns tradegen.amount
   (:require
    [clojure.spec.alpha :as s]
-   [clojure.spec.gen.alpha :as gen])
+   [clojure.spec.gen.alpha :as gen]))
 
 (s/def ::amount double?)
   
