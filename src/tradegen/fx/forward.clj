@@ -5,7 +5,7 @@
    [tradegen.cashflow :as cashflow]
    [tradegen.currency :as currency]
    [tradegen.date :as date]
-   [tradegen.primitive :as primitive]))
+   [tradegen.defaults :as defaults]))
 
 (s/def ::exchanged-currency1 ::cashflow/cashflow)
 (s/def ::exchanged-currency2 ::cashflow/cashflow)
@@ -24,12 +24,13 @@
     [ccy2 ccy1]))
 
 (defn- ->forward
-  [[[party1 party2] nominal quote trade-date t]]
-  (let [{:keys [rate currency-pair]} quote
+  [{:keys [parties nominal quote trade-date tenor]}]
+  (let [[party1 party2] parties 
+        {:keys [rate currency-pair]} quote
         [ccy1 ccy2] (-> currency-pair
                         currency/currency-pair->tuple
                         ccy-tuple->dealt-counter)
-        settlement-date (date/offset-by-days trade-date t)]
+        settlement-date (date/offset-by-days trade-date tenor)]
     {:exchanged-currency1 {:currency ccy1
                            :amount nominal
                            :payer party1
@@ -43,14 +44,7 @@
      :trade-date trade-date
      :settlement-date settlement-date}))
 
-(def t-gen (gen/elements (into #{} (range 3 1000 1))))
+
 
 (defn fx-forward-gen
-  ([] (fx-forward-gen nil))
-  ([t] (gen/fmap ->forward
-                 (gen/tuple
-                  primitive/party-tuple-gen
-                  primitive/nominal-gen
-                  currency/quote-gen
-                  (s/gen ::date/trade-date)
-                  (if t (gen/return t) t-gen)))))
+  ([] (gen/fmap ->forward (defaults/generators))))

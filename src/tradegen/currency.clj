@@ -83,7 +83,6 @@
 
 (defn- calculate-rate
   [x]
-  (println "x is: " x)
   (let [[ccy1 ccy2] x]
     (/ (ccy->usd ccy1)
        (ccy->usd ccy2))))

@@ -2,14 +2,12 @@
   (:require
    [clojure.spec.alpha :as s]
    [clojure.spec.gen.alpha :as gen]
+   [tradegen.amount :as amount]
    [tradegen.currency :as ccy]
-   [tradegen.primitive :as primitive]))
+   [tradegen.party :as party]))
 
-(s/def ::payer ::primitive/party)
-(s/def ::receiver ::primitive/party)
-
-(s/def ::cashflow (s/keys :req-un [::payer
-                                   ::receiver
+(s/def ::cashflow (s/keys :req-un [::party/payer
+                                   ::party/receiver
                                    ::ccy/currency
-                                   ::primitive/amount]))
+                                   ::amount/amount]))
 

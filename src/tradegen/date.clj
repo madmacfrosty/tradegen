@@ -12,10 +12,12 @@
 
 (s/def ::date (s/with-gen
                 inst?
-                (gen/fmap ->start-of-day (s/gen inst?))))
+                #(gen/fmap ->start-of-day (s/gen inst?))))
 
-(s/def ::trade-date inst?)
-(s/def ::settlement-date inst?)
+(s/def ::trade-date ::date)
+(s/def ::settlement-date ::date)
+(def trade-date-gen (s/gen ::trade-date))
+
 
 (defn offset-by-days
   [date offset]
