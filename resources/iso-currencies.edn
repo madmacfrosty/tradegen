@@ -1,0 +1,168 @@
+({:currency "AED", :description "United Arab Emirates Dirham"}
+ {:currency "AFN", :description "Afghanistan Afghani"}
+ {:currency "ALL", :description "Albania Lek"}
+ {:currency "AMD", :description "Armenia Dram"}
+ {:currency "ANG", :description "Netherlands Antilles Guilder"}
+ {:currency "AOA", :description "Angola Kwanza"}
+ {:currency "ARS", :description "Argentina Peso"}
+ {:currency "AUD", :description "Australia Dollar"}
+ {:currency "AWG", :description "Aruba Guilder"}
+ {:currency "AZN", :description "Azerbaijan Manat"}
+ {:currency "BAM",
+  :description "Bosnia and Herzegovina Convertible Marka"}
+ {:currency "BBD", :description "Barbados Dollar"}
+ {:currency "BDT", :description "Bangladesh Taka"}
+ {:currency "BGN", :description "Bulgaria Lev"}
+ {:currency "BHD", :description "Bahrain Dinar"}
+ {:currency "BIF", :description "Burundi Franc"}
+ {:currency "BMD", :description "Bermuda Dollar"}
+ {:currency "BND", :description "Brunei Darussalam Dollar"}
+ {:currency "BOB", :description "Bolivia Bolíviano"}
+ {:currency "BRL", :description "Brazil Real"}
+ {:currency "BSD", :description "Bahamas Dollar"}
+ {:currency "BTN", :description "Bhutan Ngultrum"}
+ {:currency "BWP", :description "Botswana Pula"}
+ {:currency "BYN", :description "Belarus Ruble"}
+ {:currency "BZD", :description "Belize Dollar"}
+ {:currency "CAD", :description "Canada Dollar"}
+ {:currency "CDF", :description "Congo/Kinshasa Franc"}
+ {:currency "CHF", :description "Switzerland Franc"}
+ {:currency "CLP", :description "Chile Peso"}
+ {:currency "CNY", :description "China Yuan Renminbi"}
+ {:currency "COP", :description "Colombia Peso"}
+ {:currency "CRC", :description "Costa Rica Colon"}
+ {:currency "CUC", :description "Cuba Convertible Peso"}
+ {:currency "CUP", :description "Cuba Peso"}
+ {:currency "CVE", :description "Cape Verde Escudo"}
+ {:currency "CZK", :description "Czech Republic Koruna"}
+ {:currency "DJF", :description "Djibouti Franc"}
+ {:currency "DKK", :description "Denmark Krone"}
+ {:currency "DOP", :description "Dominican Republic Peso"}
+ {:currency "DZD", :description "Algeria Dinar"}
+ {:currency "EGP", :description "Egypt Pound"}
+ {:currency "ERN", :description "Eritrea Nakfa"}
+ {:currency "ETB", :description "Ethiopia Birr"}
+ {:currency "EUR", :description "Euro Member Countries"}
+ {:currency "FJD", :description "Fiji Dollar"}
+ {:currency "FKP", :description "Falkland Islands (Malvinas) Pound"}
+ {:currency "GBP", :description "United Kingdom Pound"}
+ {:currency "GEL", :description "Georgia Lari"}
+ {:currency "GGP", :description "Guernsey Pound"}
+ {:currency "GHS", :description "Ghana Cedi"}
+ {:currency "GIP", :description "Gibraltar Pound"}
+ {:currency "GMD", :description "Gambia Dalasi"}
+ {:currency "GNF", :description "Guinea Franc"}
+ {:currency "GTQ", :description "Guatemala Quetzal"}
+ {:currency "GYD", :description "Guyana Dollar"}
+ {:currency "HKD", :description "Hong Kong Dollar"}
+ {:currency "HNL", :description "Honduras Lempira"}
+ {:currency "HRK", :description "Croatia Kuna"}
+ {:currency "HTG", :description "Haiti Gourde"}
+ {:currency "HUF", :description "Hungary Forint"}
+ {:currency "IDR", :description "Indonesia Rupiah"}
+ {:currency "ILS", :description "Israel Shekel"}
+ {:currency "IMP", :description "Isle of Man Pound"}
+ {:currency "INR", :description "India Rupee"}
+ {:currency "IQD", :description "Iraq Dinar"}
+ {:currency "IRR", :description "Iran Rial"}
+ {:currency "ISK", :description "Iceland Krona"}
+ {:currency "JEP", :description "Jersey Pound"}
+ {:currency "JMD", :description "Jamaica Dollar"}
+ {:currency "JOD", :description "Jordan Dinar"}
+ {:currency "JPY", :description "Japan Yen"}
+ {:currency "KES", :description "Kenya Shilling"}
+ {:currency "KGS", :description "Kyrgyzstan Som"}
+ {:currency "KHR", :description "Cambodia Riel"}
+ {:currency "KMF", :description "Comorian Franc"}
+ {:currency "KPW", :description "Korea (North) Won"}
+ {:currency "KRW", :description "Korea (South) Won"}
+ {:currency "KWD", :description "Kuwait Dinar"}
+ {:currency "KYD", :description "Cayman Islands Dollar"}
+ {:currency "KZT", :description "Kazakhstan Tenge"}
+ {:currency "LAK", :description "Laos Kip"}
+ {:currency "LBP", :description "Lebanon Pound"}
+ {:currency "LKR", :description "Sri Lanka Rupee"}
+ {:currency "LRD", :description "Liberia Dollar"}
+ {:currency "LSL", :description "Lesotho Loti"}
+ {:currency "LYD", :description "Libya Dinar"}
+ {:currency "MAD", :description "Morocco Dirham"}
+ {:currency "MDL", :description "Moldova Leu"}
+ {:currency "MGA", :description "Madagascar Ariary"}
+ {:currency "MKD", :description "Macedonia Denar"}
+ {:currency "MMK", :description "Myanmar (Burma) Kyat"}
+ {:currency "MNT", :description "Mongolia Tughrik"}
+ {:currency "MOP", :description "Macau Pataca"}
+ {:currency "MRO", :description "Mauritania Ouguiya"}
+ {:currency "MUR", :description "Mauritius Rupee"}
+ {:currency "MVR", :description "Maldives (Maldive Islands) Rufiyaa"}
+ {:currency "MWK", :description "Malawi Kwacha"}
+ {:currency "MXN", :description "Mexico Peso"}
+ {:currency "MYR", :description "Malaysia Ringgit"}
+ {:currency "MZN", :description "Mozambique Metical"}
+ {:currency "NAD", :description "Namibia Dollar"}
+ {:currency "NGN", :description "Nigeria Naira"}
+ {:currency "NIO", :description "Nicaragua Cordoba"}
+ {:currency "NOK", :description "Norway Krone"}
+ {:currency "NPR", :description "Nepal Rupee"}
+ {:currency "NZD", :description "New Zealand Dollar"}
+ {:currency "OMR", :description "Oman Rial"}
+ {:currency "PAB", :description "Panama Balboa"}
+ {:currency "PEN", :description "Peru Sol"}
+ {:currency "PGK", :description "Papua New Guinea Kina"}
+ {:currency "PHP", :description "Philippines Peso"}
+ {:currency "PKR", :description "Pakistan Rupee"}
+ {:currency "PLN", :description "Poland Zloty"}
+ {:currency "PYG", :description "Paraguay Guarani"}
+ {:currency "QAR", :description "Qatar Riyal"}
+ {:currency "RON", :description "Romania Leu"}
+ {:currency "RSD", :description "Serbia Dinar"}
+ {:currency "RUB", :description "Russia Ruble"}
+ {:currency "RWF", :description "Rwanda Franc"}
+ {:currency "SAR", :description "Saudi Arabia Riyal"}
+ {:currency "SBD", :description "Solomon Islands Dollar"}
+ {:currency "SCR", :description "Seychelles Rupee"}
+ {:currency "SDG", :description "Sudan Pound"}
+ {:currency "SEK", :description "Sweden Krona"}
+ {:currency "SGD", :description "Singapore Dollar"}
+ {:currency "SHP", :description "Saint Helena Pound"}
+ {:currency "SLL", :description "Sierra Leone Leone"}
+ {:currency "SOS", :description "Somalia Shilling"}
+ {:currency "SPL", :description "Seborga Luigino"}
+ {:currency "SRD", :description "Suriname Dollar"}
+ {:currency "STD", :description "São Tomé and Príncipe Dobra"}
+ {:currency "SVC", :description "El Salvador Colon"}
+ {:currency "SYP", :description "Syria Pound"}
+ {:currency "SZL", :description "Swaziland Lilangeni"}
+ {:currency "THB", :description "Thailand Baht"}
+ {:currency "TJS", :description "Tajikistan Somoni"}
+ {:currency "TMT", :description "Turkmenistan Manat"}
+ {:currency "TND", :description "Tunisia Dinar"}
+ {:currency "TOP", :description "Tonga Pa'anga"}
+ {:currency "TRY", :description "Turkey Lira"}
+ {:currency "TTD", :description "Trinidad and Tobago Dollar"}
+ {:currency "TVD", :description "Tuvalu Dollar"}
+ {:currency "TWD", :description "Taiwan New Dollar"}
+ {:currency "TZS", :description "Tanzania Shilling"}
+ {:currency "UAH", :description "Ukraine Hryvnia"}
+ {:currency "UGX", :description "Uganda Shilling"}
+ {:currency "USD", :description "United States Dollar"}
+ {:currency "UYU", :description "Uruguay Peso"}
+ {:currency "UZS", :description "Uzbekistan Som"}
+ {:currency "VEF", :description "Venezuela Bolívar"}
+ {:currency "VND", :description "Viet Nam Dong"}
+ {:currency "VUV", :description "Vanuatu Vatu"}
+ {:currency "WST", :description "Samoa Tala"}
+ {:currency "XAF",
+  :description "Communauté Financière Africaine (BEAC) CFA Franc BEAC"}
+ {:currency "XCD", :description "East Caribbean Dollar"}
+ {:currency "XDR",
+  :description
+  "International Monetary Fund (IMF) Special Drawing Rights"}
+ {:currency "XOF",
+  :description "Communauté Financière Africaine (BCEAO) Franc"}
+ {:currency "XPF",
+  :description "Comptoirs Français du Pacifique (CFP) Franc"}
+ {:currency "YER", :description "Yemen Rial"}
+ {:currency "ZAR", :description "South Africa Rand"}
+ {:currency "ZMW", :description "Zambia Kwacha"}
+ {:currency "ZWD", :description "Zimbabwe Dollar"})
